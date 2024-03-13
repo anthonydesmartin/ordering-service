@@ -1,9 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-
-Route::get('/', function () {
-    return ['Laravel' => app()->version()];
-});
+//use Illuminate\Support\Facades\Route;
 
 require __DIR__.'/auth.php';
